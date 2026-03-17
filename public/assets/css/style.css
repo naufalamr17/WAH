@@ -1,0 +1,329 @@
+/* ============================
+   Custom Styles - Yayasan WAH
+   ============================ */
+
+/* --- Navbar Scroll Effect --- */
+.navbar-scrolled {
+    background-color: rgba(20, 83, 45, 0.97) !important;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-scrolled .nav-brand-text {
+    color: #ffffff !important;
+}
+
+.navbar-scrolled .nav-brand-sub {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.navbar-scrolled .nav-link {
+    color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.navbar-scrolled .nav-link:hover,
+.navbar-scrolled .nav-link.active {
+    color: #ffffff !important;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* --- Inner Page Navbar (always solid) --- */
+.navbar-inner {
+    background-color: rgba(20, 83, 45, 0.97) !important;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* --- Hero Section --- */
+.hero-gradient {
+    background: linear-gradient(135deg, rgba(5, 46, 22, 0.92) 0%, rgba(20, 83, 45, 0.85) 40%, rgba(21, 128, 61, 0.75) 100%);
+}
+
+.hero-pattern {
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* --- Section Styles --- */
+.section-divider {
+    height: 4px;
+    width: 60px;
+    background: linear-gradient(to right, #14532d, #d4a843);
+    border-radius: 2px;
+}
+
+/* --- Card Hover Effects --- */
+.card-hover {
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-hover:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
+}
+
+.card-icon-hover {
+    transition: all 0.4s ease;
+}
+
+.card-hover:hover .card-icon-hover {
+    transform: scale(1.1) rotate(5deg);
+}
+
+/* --- Counter Animation --- */
+.counter-item {
+    position: relative;
+}
+
+.counter-item::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 60%;
+    width: 1px;
+    background: linear-gradient(to bottom, transparent, rgba(255, 255, 255, 0.3), transparent);
+}
+
+.counter-item:last-child::after {
+    display: none;
+}
+
+/* --- Page Header --- */
+.page-header {
+    background: linear-gradient(135deg, #052e16 0%, #14532d 50%, #15803d 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.page-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* --- Gradient Text --- */
+.gradient-text {
+    background: linear-gradient(135deg, #14532d, #d4a843);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* --- Glass Effect --- */
+.glass {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+/* --- Timeline --- */
+.timeline-line {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(to bottom, #14532d, #d4a843);
+    transform: translateX(-50%);
+}
+
+/* --- Swiper Custom --- */
+.swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background: #14532d;
+    opacity: 0.3;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: linear-gradient(135deg, #14532d, #d4a843);
+    width: 30px;
+    border-radius: 5px;
+}
+
+/* --- Mobile Menu Animation --- */
+.mobile-menu-open {
+    transform: translateX(0) !important;
+}
+
+.hamburger-active .line1 {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger-active .line2 {
+    opacity: 0;
+}
+
+.hamburger-active .line3 {
+    transform: translateY(-4px) rotate(-45deg);
+    width: 1.5rem;
+}
+
+/* --- Pulse Animation --- */
+@keyframes gentle-pulse {
+    0%, 100% { opacity: 0.6; }
+    50% { opacity: 1; }
+}
+
+.animate-gentle-pulse {
+    animation: gentle-pulse 3s ease-in-out infinite;
+}
+
+/* --- Scroll indicator --- */
+@keyframes bounce-down {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(8px); }
+}
+
+.animate-bounce-down {
+    animation: bounce-down 2s ease-in-out infinite;
+}
+
+/* --- Gallery hover --- */
+.gallery-item {
+    overflow: hidden;
+}
+
+.gallery-item img {
+    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+.gallery-overlay {
+    background: linear-gradient(to top, rgba(5, 46, 22, 0.8), transparent);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.gallery-item:hover .gallery-overlay {
+    opacity: 1;
+}
+
+/* --- Form Focus --- */
+.form-input:focus {
+    border-color: #14532d;
+    box-shadow: 0 0 0 3px rgba(20, 83, 45, 0.1);
+    outline: none;
+}
+
+/* --- Smooth scroll & prevent horizontal overflow --- */
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* --- Subtle Scrollbar --- */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(20, 83, 45, 0.2);
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(20, 83, 45, 0.4);
+}
+
+/* Firefox scrollbar */
+html {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(20, 83, 45, 0.2) transparent;
+}
+
+/* --- Mobile Responsive Fixes --- */
+@media (max-width: 767px) {
+    /* Reduce section padding on mobile */
+    .py-24 {
+        padding-top: 3.5rem;
+        padding-bottom: 3.5rem;
+    }
+
+    .py-20 {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    /* Counter divider: hide on mobile 2-col layout */
+    .counter-item::after {
+        display: none;
+    }
+
+    /* Disable card hover transform on mobile to prevent overflow */
+    .card-hover:hover {
+        transform: none;
+    }
+
+    /* Reduce card padding on mobile */
+    .p-10 {
+        padding: 1.5rem;
+    }
+
+    .p-8 {
+        padding: 1.25rem;
+    }
+
+    /* Fix decorative absolute elements */
+    .absolute.-bottom-8,
+    .absolute.-right-8,
+    .absolute.-bottom-6,
+    .absolute.-right-6 {
+        position: relative;
+        bottom: auto;
+        right: auto;
+        margin-top: 1rem;
+    }
+
+    /* Gallery text size on mobile */
+    .gallery-item h4 {
+        font-size: 0.875rem;
+    }
+
+    .gallery-overlay {
+        opacity: 1;
+    }
+
+    /* Quote section text */
+    .text-9xl {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 639px) {
+    /* Hero heading size */
+    .text-4xl {
+        font-size: 1.75rem;
+        line-height: 2.25rem;
+    }
+
+    /* CTA buttons stack full width on very small screens */
+    .flex-wrap.gap-4 > a {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* Counter divider: show only after 2nd item in 2-col */
+    .counter-item:nth-child(2n)::after {
+        display: none;
+    }
+}
