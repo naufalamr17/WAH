@@ -38,12 +38,12 @@
 
                 <div class="flex flex-wrap gap-4">
                     <a href="{{ route('about') }}"
-                       class="inline-flex items-center px-8 py-4 rounded-full bg-white text-primary-900 font-semibold hover:bg-gray-100 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105">
+                        class="inline-flex items-center px-8 py-4 rounded-full bg-white text-primary-900 font-semibold hover:bg-gray-100 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105">
                         <span>Tentang Yayasan</span>
                         <i class="fas fa-arrow-right ml-3"></i>
                     </a>
                     <a href="{{ route('contact') }}"
-                       class="inline-flex items-center px-8 py-4 rounded-full border-2 border-white/30 text-white font-semibold hover:bg-white/10 transition-all duration-300 hover:border-gold-400">
+                        class="inline-flex items-center px-8 py-4 rounded-full border-2 border-white/30 text-white font-semibold hover:bg-white/10 transition-all duration-300 hover:border-gold-400">
                         <span>Kolaborasi Sekarang</span>
                         <i class="fas fa-handshake ml-3"></i>
                     </a>
@@ -418,14 +418,14 @@
 
         <div class="grid grid-cols-2 md:grid-cols-3 gap-4" data-aos="fade-up">
             @php
-                $galleryItems = [
-                    ['icon' => 'fa-graduation-cap', 'title' => 'Pendidikan', 'color' => 'from-blue-600/80 to-blue-900/80'],
-                    ['icon' => 'fa-hands-helping', 'title' => 'Bakti Sosial', 'color' => 'from-red-600/80 to-red-900/80'],
-                    ['icon' => 'fa-mosque', 'title' => 'Kajian Rutin', 'color' => 'from-primary-600/80 to-primary-900/80'],
-                    ['icon' => 'fa-child', 'title' => 'Santunan Yatim', 'color' => 'from-gold-600/80 to-gold-900/80'],
-                    ['icon' => 'fa-heartbeat', 'title' => 'Layanan Kesehatan', 'color' => 'from-pink-600/80 to-pink-900/80'],
-                    ['icon' => 'fa-users', 'title' => 'Kebersamaan', 'color' => 'from-primary-600/80 to-primary-900/80'],
-                ];
+            $galleryItems = [
+            ['icon' => 'fa-graduation-cap', 'title' => 'Pendidikan', 'color' => 'from-blue-600/80 to-blue-900/80'],
+            ['icon' => 'fa-hands-helping', 'title' => 'Bakti Sosial', 'color' => 'from-red-600/80 to-red-900/80'],
+            ['icon' => 'fa-mosque', 'title' => 'Kajian Rutin', 'color' => 'from-primary-600/80 to-primary-900/80'],
+            ['icon' => 'fa-child', 'title' => 'Santunan Yatim', 'color' => 'from-gold-600/80 to-gold-900/80'],
+            ['icon' => 'fa-heartbeat', 'title' => 'Layanan Kesehatan', 'color' => 'from-pink-600/80 to-pink-900/80'],
+            ['icon' => 'fa-users', 'title' => 'Kebersamaan', 'color' => 'from-primary-600/80 to-primary-900/80'],
+            ];
             @endphp
 
             @foreach($galleryItems as $item)
@@ -468,12 +468,12 @@
 
         <div class="flex flex-wrap justify-center gap-4">
             <a href="{{ route('contact') }}"
-               class="inline-flex items-center px-8 py-4 rounded-full bg-gradient-to-r from-gold-500 to-gold-600 text-white font-semibold hover:from-gold-600 hover:to-gold-700 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105">
+                class="inline-flex items-center px-8 py-4 rounded-full bg-gradient-to-r from-gold-500 to-gold-600 text-white font-semibold hover:from-gold-600 hover:to-gold-700 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105">
                 <i class="fas fa-envelope mr-3"></i>
                 <span>Hubungi Kami</span>
             </a>
-            <a href="https://wa.me/6281234567890" target="_blank"
-               class="inline-flex items-center px-8 py-4 rounded-full border-2 border-white/30 text-white font-semibold hover:bg-white/10 transition-all duration-300 hover:border-gold-400">
+            <a href="https://wa.me/6285211726656" target="_blank"
+                class="inline-flex items-center px-8 py-4 rounded-full border-2 border-white/30 text-white font-semibold hover:bg-white/10 transition-all duration-300 hover:border-gold-400">
                 <i class="fab fa-whatsapp mr-3"></i>
                 <span>Chat WhatsApp</span>
             </a>

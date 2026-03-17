@@ -40,8 +40,8 @@
                                 <i class="fas fa-map-marker-alt text-gold-600 text-xl"></i>
                             </div>
                             <div>
-                                <p class="font-semibold text-gray-900 text-sm">Kabupaten Bogor</p>
-                                <p class="text-gray-500 text-xs">Jawa Barat, Indonesia</p>
+                                <p class="font-semibold text-gray-900 text-sm">Yayasan Warung Amal Haunan</p>
+                                <p class="text-gray-500 text-xs mt-1">Jl. Kayu Manis, Cirimekar, Kec. Cibinong, Kabupaten Bogor, Jawa Barat 16917</p>
                             </div>
                         </div>
                     </div>

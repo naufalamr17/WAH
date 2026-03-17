@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -71,6 +72,7 @@
 
     @yield('styles')
 </head>
+
 <body class="font-sans text-gray-700 bg-white antialiased">
 
     @include('partials.navbar')
@@ -82,9 +84,9 @@
     @include('partials.footer')
 
     {{-- WhatsApp Floating Button --}}
-    <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer"
-       class="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 group"
-       aria-label="Chat WhatsApp">
+    <a href="https://wa.me/6285211726656" target="_blank" rel="noopener noreferrer"
+        class="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 group"
+        aria-label="Chat WhatsApp">
         <i class="fab fa-whatsapp text-2xl group-hover:animate-bounce"></i>
     </a>
 
@@ -99,4 +101,5 @@
 
     @yield('scripts')
 </body>
+
 </html>

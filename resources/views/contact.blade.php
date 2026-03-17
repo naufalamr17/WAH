@@ -37,7 +37,7 @@
                         </div>
                         <div>
                             <h4 class="font-semibold text-gray-900">Alamat</h4>
-                            <p class="text-gray-500 text-sm mt-1">Kabupaten Bogor, Jawa Barat, Indonesia</p>
+                            <p class="text-gray-500 text-sm mt-1">Jl. Kayu Manis, Cirimekar, Kec. Cibinong, Kabupaten Bogor, Jawa Barat 16917</p>
                         </div>
                     </div>
                     <div class="flex items-start space-x-4">
@@ -55,7 +55,7 @@
                         </div>
                         <div>
                             <h4 class="font-semibold text-gray-900">WhatsApp</h4>
-                            <p class="text-gray-500 text-sm mt-1">+62 812 3456 7890</p>
+                            <p class="text-gray-500 text-sm mt-1">+62 852 1172 6656</p>
                         </div>
                     </div>
                 </div>
@@ -115,15 +115,11 @@
     </div>
 </section>
 
-{{-- Map placeholder --}}
+{{-- Map Location --}}
 <section class="bg-gray-100">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-        <div class="rounded-3xl overflow-hidden h-80 bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center" data-aos="fade-up">
-            <div class="text-center text-gray-400">
-                <i class="fas fa-map-marked-alt text-6xl mb-4"></i>
-                <p class="font-semibold text-lg">Kabupaten Bogor, Jawa Barat</p>
-                <p class="text-sm mt-1">Peta lokasi yayasan</p>
-            </div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div class="rounded-3xl overflow-hidden shadow-sm border border-gray-200" data-aos="fade-up">
+            <div class="embed-map-responsive"><div class="embed-map-container"><iframe class="embed-map-frame" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&height=400&hl=en&q=warung%20amal%20haunan&t=&z=17&ie=UTF8&iwloc=B&output=embed"></iframe><a href="https://funclicker.org" style="font-size:2px!important;color:gray!important;position:absolute;bottom:0;left:0;z-index:1;max-height:1px;overflow:hidden">Fun Clicker</a></div><style>.embed-map-responsive{position:relative;text-align:right;width:100%;height:500px;}.embed-map-container{overflow:hidden;background:none!important;width:100%;height:100%;position:absolute;top:0;left:0;}.embed-map-frame{width:100%!important;height:100%!important;position:absolute;top:0;left:0;}@media(max-width:768px){.embed-map-responsive{height:350px;}}</style></div>
         </div>
     </div>
 </section>

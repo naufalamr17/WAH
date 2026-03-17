@@ -72,19 +72,19 @@
                         <div class="w-8 h-8 rounded-lg bg-white/10 flex items-center justify-center flex-shrink-0 mt-0.5">
                             <i class="fas fa-map-marker-alt text-primary-400 text-sm"></i>
                         </div>
-                        <span class="text-white/60 text-sm leading-relaxed">Kabupaten Bogor, Jawa Barat, Indonesia</span>
+                        <span class="text-white/60 text-sm leading-relaxed">Jl. Kayu Manis, Cirimekar, Kec. Cibinong, Kabupaten Bogor, Jawa Barat 16917</span>
                     </li>
                     <li class="flex items-start space-x-3">
                         <div class="w-8 h-8 rounded-lg bg-white/10 flex items-center justify-center flex-shrink-0">
                             <i class="fas fa-envelope text-primary-400 text-sm"></i>
                         </div>
-                        <span class="text-white/60 text-sm">info@warungramalhaunan.or.id</span>
+                        <span class="text-white/60 text-sm">info@warungamalhaunan.or.id</span>
                     </li>
                     <li class="flex items-start space-x-3">
                         <div class="w-8 h-8 rounded-lg bg-white/10 flex items-center justify-center flex-shrink-0">
                             <i class="fas fa-phone text-primary-400 text-sm"></i>
                         </div>
-                        <span class="text-white/60 text-sm">+62 812 3456 7890</span>
+                        <span class="text-white/60 text-sm">+62 852 1172 6656</span>
                     </li>
                 </ul>
             </div>
